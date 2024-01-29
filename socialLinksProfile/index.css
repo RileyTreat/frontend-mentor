@@ -1,0 +1,104 @@
+body {
+    background-color: #141414;
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    min-height: 100vh; 
+    margin: 0; 
+    flex-direction: column;
+}
+
+.card {
+    background-color: #1f1f1f;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    width: 500px;
+    height: 800px;
+    border-radius: 10px;
+    justify-content: space-between;
+}
+
+.profilePic{
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+
+}
+
+.profilePic img {
+    border-radius: 50%;
+    height: 130px;
+    margin: auto;
+    margin-top: 60px;
+    margin-bottom: 10px;
+}
+
+.userInfo {
+    margin: auto;
+    display: flexbox;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center; 
+    text-align: center; 
+    
+}
+
+.userInfo h2 {
+    color: #f5f5f5;
+    margin: 0;
+    display: flexbox;
+    font-size: 35px;
+    font-family: sans-serif;
+}
+
+.userInfo h5 {
+    color: #8ec810;
+    margin: 0;
+    margin-top: 10px;
+    font-size: 20px;
+    font-family: sans-serif;
+}
+
+.about p {
+    color: whitesmoke;
+    margin: 0;
+    font-family: sans-serif;
+    font-size: 20px;
+}
+
+.about {
+    margin: auto;
+    display: flexbox;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center; 
+    text-align: center; 
+    margin-top: 15px;
+}
+
+.profileButtons {
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    margin-bottom: 35px;
+    margin-top: 15px;
+}
+
+.profileButtons button {
+    background-color: #333333;
+    border: none;
+    color: whitesmoke;
+    padding: 14px;
+    margin: 8px;
+    border-radius: 8px;
+    width: 80%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-size: 18px;
+}
